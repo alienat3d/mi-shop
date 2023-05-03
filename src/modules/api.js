@@ -14,3 +14,25 @@ export const getData = (path) => {
       return response.json()
     })
 }
+// В случае с GET-запросом (выше) нам достаточно было указать только путь, но в это случае с GET-запросом нам необходимо также настроить передаваемый объект "data" и указать чётко метод "body" и "header". Но и ответ от fetch() требуется также и выше обработать с then().
+export const postData = (path, data) => {
+  return fetch(apiPath + path, data).then(response => {
+    if (!response.ok) {
+      throw new Error
+    }
+
+    return response.json()
+  })
+}
+// Создаём также функцию удаления. Также не забудем указать объект с методом "DELETE".
+export const deleteData = (path) => {
+  return fetch(apiPath + path, {
+    method: 'DELETE'
+  }).then(response => {
+    if (!response.ok) {
+      throw new Error
+    }
+
+    return response.json()
+  })
+}

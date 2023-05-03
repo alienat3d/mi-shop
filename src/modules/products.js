@@ -10,7 +10,7 @@ export const productsFunc = () => {
             <div class="card">
               <img src="${item.preview}" class="card-img-top" alt="${item.alt}">
               <div class="card-body">
-                <span class="mb-2 d-block text-secondary">${item.categoryName}</span>
+                <span class="mb-2 d-block text-secondary">${item.title}</span>
                 <h6 class="card-title mb-3">${item.name}</h6>
 
                 <div class="row">
