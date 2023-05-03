@@ -7,20 +7,38 @@
     {
       "id": 0,
       "name": "Смартфоны",
-      "preview": "./images/phones/preview.jpg",
+      "preview": "./images/content/smartphones/preview.jpg",
       "alt": "Категория Смартфоны"
     },
     {
       "id": 1,
       "name": "Аксессуары",
-      "preview": "./images/accessory/preview.jpg",
+      "preview": "./images/content/accessory/preview.jpg",
       "alt": "Категория Аксессуары"
     },
     {
       "id": 2,
       "name": "Умные устройства",
-      "preview": "./images/usage/preview.jpg",
+      "preview": "./images/content/smart-devices/preview.jpg",
       "alt": "Категория Умные устройства"
+    },
+    {
+      "id": 3,
+      "name": "Транспортные средства",
+      "preview": "./images/content/vehicles/preview.jpg",
+      "alt": "Категория Транспортные средства"
+    },
+    {
+      "id": 4,
+      "name": "Игрушки",
+      "preview": "./images/content/toys/preview.jpg",
+      "alt": "Категория Игрушки"
+    },
+    {
+      "id": 5,
+      "name": "Наушники",
+      "preview": "./images/content/earphones/preview.jpg",
+      "alt": "Категория Наушники"
     }
   ],
   "products": [
@@ -28,150 +46,345 @@
       "id": 0,
       "category": 0,
       "categoryName": "Смартфон",
-      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
-      "preview": "./images/phones/phone-1.jpg",
-      "alt": "Голубой смартфон",
-      "price": 4990
+      "name": "Xiaomi Redmi A1+ 32GB",
+      "preview": "./images/content/smartphones/xiaomi-redmi-a1-32gb-thumb.jpg",
+      "alt": "Смартфон Xiaomi Redmi A1+ 32GB",
+      "price": 4999
     },
     {
       "id": 1,
       "category": 0,
       "categoryName": "Смартфон",
-      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
-      "preview": "./images/phones/phone-1.jpg",
-      "alt": "Голубой смартфон",
-      "price": 7990
+      "name": "Xiaomi 12 Pro",
+      "preview": "./images/content/smartphones/xiaomi-12-pro-thumb.jpg",
+      "alt": "Смартфон Xiaomi 12 Pro",
+      "price": 58720
     },
     {
       "id": 2,
       "category": 0,
       "categoryName": "Смартфон",
-      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
-      "preview": "./images/phones/phone-1.jpg",
-      "alt": "Голубой смартфон",
-      "price": 1990
+      "name": "Xiaomi 13 Ultra",
+      "preview": "./images/content/smartphones/xiaomi-13-ultra-thumb.jpg",
+      "alt": "Смартфон Xiaomi 13 Ultra",
+      "price": 59990
     },
     {
       "id": 3,
       "category": 0,
       "categoryName": "Смартфон",
-      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
-      "preview": "./images/phones/phone-1.jpg",
-      "alt": "Голубой смартфон",
-      "price": 2990
+      "name": "Xiaomi 13 Lite",
+      "preview": "./images/content/smartphones/xiaomi-13-lite-thumb.jpg",
+      "alt": "Смартфон Xiaomi 13 Lite",
+      "price": 30875
     },
     {
       "id": 4,
       "category": 0,
       "categoryName": "Смартфон",
-      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
-      "preview": "./images/phones/phone-1.jpg",
-      "alt": "Голубой смартфон",
-      "price": 3990
+      "name": "Xiaomi 13",
+      "preview": "./images/content/smartphones/xiaomi-13-thumb.jpg",
+      "alt": "Смартфон Xiaomi 13",
+      "price": 79680
     },
     {
       "id": 5,
       "category": 1,
-      "categoryName": "Чехол",
-      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
-      "preview": "/images/accessory/accessory-1.jpg",
-      "alt": "Чехол",
-      "price": 320
+      "categoryName": "Аксессуары",
+      "name": "Red Line Ultimate для Xiaomi Redmi",
+      "preview": "./images/content/accessory/red-line-ultimate-gelskin-thumb.jpg",
+      "alt": "Чехол для смартфона Red Line Ultimate для Xiaomi Redmi",
+      "price": 290
     },
     {
       "id": 6,
       "category": 1,
-      "categoryName": "Чехол",
-      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
-      "preview": "/images/accessory/accessory-1.jpg",
-      "alt": "Чехол",
-      "price": 670
+      "categoryName": "Аксессуары",
+      "name": "Чехол-клавиатура Xiaomi Mi Pad 5 Keyboard Type Double Sided Protective Case",
+      "preview": "./images/content/accessory/xiaomi-mi-pad-5-keyboard-thumb.jpg",
+      "alt": "Чехол-клавиатура Xiaomi Mi Pad 5 Keyboard",
+      "price": 7990
     },
     {
       "id": 7,
       "category": 1,
-      "categoryName": "Чехол",
-      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
-      "preview": "/images/accessory/accessory-1.jpg",
-      "alt": "Чехол",
-      "price": 491
+      "categoryName": "Аксессуары",
+      "name": "Док-станция Xiaomi Type-C 5-in-1",
+      "preview": "./images/content/accessory/xiaomi-type-C-5-in-1-hub-thumb.jpg",
+      "alt": "Док-станция Type-C",
+      "price": 4310
     },
     {
       "id": 8,
       "category": 1,
-      "categoryName": "Чехол",
-      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
-      "preview": "/images/accessory/accessory-1.jpg",
-      "alt": "Чехол",
-      "price": 356
+      "categoryName": "Аксессуары",
+      "name": "Фитнес-браслет Amazfit Band 7",
+      "preview": "./images/content/accessory/amazfit-band-7-thumb.jpg",
+      "alt": "Фитнес-браслет",
+      "price": 5991
     },
     {
       "id": 9,
       "category": 1,
-      "categoryName": "Чехол",
-      "name": "Red Line Ultimate для Xiaomi Redmi 9C (оранжевый)",
-      "preview": "/images/accessory/accessory-1.jpg",
-      "alt": "Чехол",
-      "price": 290
+      "categoryName": "Аксессуары",
+      "name": "Термокружка Xiaomi Mini Thermos Flask",
+      "preview": "./images/content/accessory/xiaomi-mini-thermos-flask-thumb.jpg",
+      "alt": "Термокружка",
+      "price": 3590
     },
     {
       "id": 10,
       "category": 2,
-      "categoryName": "Умные часы",
-      "name": "Amazfit GTS 4 mini (черный)",
-      "preview": "/images/usage/usage-1.jpg",
+      "categoryName": "Умные устройства",
+      "name": "Умные часы Redmi Watch 3",
+      "preview": "./images/content/smart-devices/redmi-watch-3-thumb.jpg",
       "alt": "Умные часы",
-      "price": 7490
+      "price": 8900
     },
     {
       "id": 11,
       "category": 2,
-      "categoryName": "Умные часы",
-      "name": "Amazfit GTS 4 mini (черный)",
-      "preview": "/images/usage/usage-1.jpg",
+      "categoryName": "Умные устройства",
+      "name": "Amazfit GTR 4 Limited Edition",
+      "preview": "./images/content/smart-devices/amazfit-gtr-4-limited-edition-thumb.jpg",
       "alt": "Умные часы",
-      "price": 7190
+      "price": 20990
     },
     {
       "id": 12,
       "category": 2,
-      "categoryName": "Умные часы",
-      "name": "Amazfit GTS 4 mini (черный)",
-      "preview": "/images/usage/usage-1.jpg",
-      "alt": "Умные часы",
-      "price": 8560
+      "categoryName": "Умные устройства",
+      "name": "Монокуляр Xiaomi Celestron Star Trang Geometric Monocular 10X",
+      "preview": "./images/content/smart-devices/xiaomi-celestron-star-trang-geometric-monocular-10x-thumb.jpg",
+      "alt": "Монокуляр",
+      "price": 5602
     },
     {
       "id": 13,
       "category": 2,
-      "categoryName": "Умные часы",
-      "name": "Amazfit GTS 4 mini (черный)",
-      "preview": "/images/usage/usage-1.jpg",
-      "alt": "Умные часы",
-      "price": 10200
+      "categoryName": "Умные устройства",
+      "name": "Перкуссионный массажер Xiaomi Mijia Fascia Gun Pro",
+      "preview": "./images/content/smart-devices/xiaomi-mijia-fascia-gun-pro-thumb.jpg",
+      "alt": "Перкуссионный массажер",
+      "price": 18990
     },
     {
       "id": 14,
       "category": 2,
-      "categoryName": "Умные часы",
-      "name": "Amazfit GTS 4 mini (черный)",
-      "preview": "/images/usage/usage-1.jpg",
-      "alt": "Умные часы",
-      "price": 9175
+      "categoryName": "Умные устройства",
+      "name": "Рация Xiaomi Walkie Talkie 2S",
+      "preview": "./images/content/smart-devices/xiaomi-walkie-talkie-2s-thumb.jpg",
+      "alt": "Рация",
+      "price": 5990
+    },
+    {
+      "id": 15,
+      "category": 3,
+      "categoryName": "Транспортные средства",
+      "name": "Электроскутер Ninebot F90M",
+      "preview": "./images/content/vehicles/ninebot-f90m-1-thumb.jpg",
+      "alt": "Электроскутер",
+      "price": 69990
+    },
+    {
+      "id": 16,
+      "category": 3,
+      "categoryName": "Транспортные средства",
+      "name": "Летающий мотоцикл Xturismo Hoverbike Limited Edition",
+      "preview": "./images/content/vehicles/xturismo-limited-edition-1-thumb.jpg",
+      "alt": "Летающий мотоцикл",
+      "price": 42830000
+    },
+    {
+      "id": 17,
+      "category": 3,
+      "categoryName": "Транспортные средства",
+      "name": "Электросамокат Xiaomi Electric Scooter 4 Ultra",
+      "preview": "./images/content/vehicles/xiaomi-electric-scooter-4-ultra-1-thumb.jpg",
+      "alt": "Электросамокат",
+      "price": 79200
+    },
+    {
+      "id": 18,
+      "category": 4,
+      "categoryName": "Игрушки",
+      "name": "Конструктор кран Xiaomi Onebot Engineering Crane Building Blocks",
+      "preview": "./images/content/toys/xiaomi-onebot-engineering-crane-building-blocks-1-thumb.jpg",
+      "alt": "Игрушка конструктор строительный автокран",
+      "price": 5990
+    },
+    {
+      "id": 19,
+      "category": 4,
+      "categoryName": "Игрушки",
+      "name": "Конструктор гоночный автомобиль Xiaomi Onebot Xiaomi Desert Racing Car Building Blocks",
+      "preview": "./images/content/toys/xiaomi-onebot-xiaomi-desert-racing-car-building-blocks-thumb.jpg",
+      "alt": "Игрушка конструктор гоночный автомобиль",
+      "price": 2960
+    },
+    {
+      "id": 20,
+      "category": 4,
+      "categoryName": "Игрушки",
+      "name": "Конструктор умный внедорожник Xiaomi Onebot Smart Off-Road Vehicle",
+      "preview": "./images/content/toys/xiaomi-onebot-smart-off-road-vehicle-thumb.jpg",
+      "alt": "Игрушка конструктор умный внедорожник",
+      "price": 10880
+    },
+    {
+      "id": 21,
+      "category": 4,
+      "categoryName": "Игрушки",
+      "name": "Конструктор бетономешалка Xiaomi Onebot Building Block Engineering Mixer",
+      "preview": "./images/content/toys/xiaomi-onebot-building-block-engineering-mixer-thumb.jpg",
+      "alt": "Игрушка конструктор бетономешалка",
+      "price": 4940
+    },
+    {
+      "id": 22,
+      "category": 2,
+      "categoryName": "Умные устройства",
+      "name": "Телескоп Xiaomi Celestron Astronomical Telescope Star Trang SCTW-70",
+      "preview": "./images/content/smart-devices/xiaomi-celestron-astronomical-telescope-star-trang-sctw-70-thumb.jpg",
+      "alt": "Телескоп",
+      "price": 17251
+    },
+    {
+      "id": 23,
+      "category": 2,
+      "categoryName": "Умные устройства",
+      "name": "Бинокль Xiaomi Celestron Star Trang Classic HD Binoculars",
+      "preview": "./images/content/smart-devices/xiaomi-celestron-star-trang-classic-hd-binoculars-thumb.jpg",
+      "alt": "Бинокль",
+      "price": 6949
+    },
+    {
+      "id": 24,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Xiaomi Buds 4",
+      "preview": "./images/content/earphones/xiaomi-buds-4-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 10990
+    },
+    {
+      "id": 25,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Nothing Ear",
+      "preview": "./images/content/earphones/nothing-ear-2-1-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 14990
+    },
+    {
+      "id": 26,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Redmi Buds 4 Harry Potter Edition",
+      "preview": "./images/content/earphones/redmi-buds-4-harry-potter-edition-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 8690
+    },
+    {
+      "id": 27,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Xiaomi True Wireless Noise Canceling Headphones 3 Star Wars",
+      "preview": "./images/content/earphones/xiaomi-true-wireless-noise-canceling-headphones-3-star-wars-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 11990
+    },
+    {
+      "id": 28,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Xiaomi Bluetooth Noise Cancelling Headset Necklace",
+      "preview": "./images/content/earphones/xiaomi-bluetooth-noise-cancelling-headset-necklace-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 8392
+    },
+    {
+      "id": 29,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Наушники Xiaomi Capsule Earphones",
+      "preview": "./images/content/earphones/xiaomi-capsule-earphones-thumb.jpg",
+      "alt": "Наушники",
+      "price": 1753
+    },
+    {
+      "id": 30,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Xiaomi Mi True Wireless Earphones 3 Pro",
+      "preview": "./images/content/earphones/xiaomi-mi-true-wireless-earphones-3-pro-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 10556
+    },
+    {
+      "id": 31,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Xiaomi Redmi Buds 3 Lite Youth Edition",
+      "preview": "./images/content/earphones/xiaomi-redmi-buds-3-lite-youth-edition-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 2872
+    },
+    {
+      "id": 32,
+      "category": 5,
+      "categoryName": "Наушники",
+      "name": "Беспроводные наушники Xiaomi MIIIW Marshmallow Earphones",
+      "preview": "./images/content/earphones/xiaomi-miiiw-marshmallow-earphones-thumb.jpg",
+      "alt": "Беспроводные наушники",
+      "price": 2724
+    },
+    {
+      "id": 33,
+      "category": 0,
+      "categoryName": "Смартфон",
+      "name": "Xiaomi Poco X5 Pro",
+      "preview": "./images/content/smartphones/xiaomi-poco-x5-pro-thumb.jpg",
+      "alt": "Смартфон",
+      "price": 22651
+    },
+    {
+      "id": 34,
+      "category": 0,
+      "categoryName": "Смартфон",
+      "name": "Xiaomi Redmi Note 12",
+      "preview": "./images/content/smartphones/xiaomi-redmi-note-12-thumb.jpg",
+      "alt": "Смартфон",
+      "price": 22253
+    },
+    {
+      "id": 35,
+      "category": 0,
+      "categoryName": "Смартфон",
+      "name": "Xiaomi 12T Pro",
+      "preview": "./images/content/smartphones/xiaomi-12t-pro-thumb.jpg",
+      "alt": "Смартфон",
+      "price": 45702
     }
   ],
   "cart": [
     {
       "id": 0,
-      "name": "Amazfit GTS 4 mini (черный)",
-      "count": 1,
-      "price": 10200
+      "name": "Red Line Ultimate для Xiaomi Redmi",
+      "count": 2,
+      "price": 290
     },
     {
       "id": 1,
-      "name": "Xiaomi Redmi A1+ 2/32GB (голубой)",
+      "name": "Беспроводные наушники Redmi Buds 4 Harry Potter Edition",
       "count": 1,
-      "price": 4990
+      "price": 8690
+    },
+    {
+      "id": 2,
+      "name": "Xiaomi 12 Pro",
+      "count": 1,
+      "price": 58720
     }
   ]
 }
