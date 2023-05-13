@@ -1,7 +1,7 @@
 // 1 Переносим как нужные нам переменные, изменяя попутно их id, так и функции из [addCategory.js].
 import { postData, getData, deleteData } from "../api";
 
-export const addProduct = () => {
+export const addProductFunc = () => {
   const titleInput = document.getElementById('product-title')
   const nameInput = document.getElementById('product-name')
   const priceInput = document.getElementById('product-price')
@@ -22,7 +22,7 @@ export const addProduct = () => {
     container.innerHTML = ''
     data.forEach((item, index) => {
       container.insertAdjacentHTML('beforeend', `
-        <tr>
+        <tr class="product-row">
           <th scope="row">${index + 1}</th>
           <td>${item.title}</td>
           <td>${item.name}</td>
@@ -55,9 +55,7 @@ export const addProduct = () => {
   }
 
   function updateTable () {
-    getData('/products').then((data) => {
-      render(data)
-    })
+    getData('/products').then((data) => render(data))
   }
 
   // 3.2 Записываем значение выбранной позиции в select и записываем его value в объект под ключом "category".

@@ -1,6 +1,6 @@
 import { postData, getData, deleteData } from "../api";
 
-export const addCategory = () => {
+export const addCategoryFunc = () => {
   //1.1 Сперва получаем все 3 элемента нашей формы, 2 input’a и кнопку отправки.
   const nameInput = document.getElementById('category-name')
   const previewInput = document.getElementById('category-image')
@@ -22,7 +22,7 @@ export const addCategory = () => {
     // 4.3.2 Для вывода номера позиции получим также index и выведем его в поле отображения номера позиции.
     data.forEach((item, index) => {
       container.insertAdjacentHTML('beforeend', `
-        <tr>
+        <tr class="category-row">
           <!-- 4.3.1 Для вывода номера мы могли бы использовать id, но что если одну из позиций мы потом удалим? Тогда будет выглядеть "1, 2, 3, 5", например. Для того, чтобы этого избежать… (см. выше 4.3.2) -->
           <th scope="row">${index + 1}</th>
           <td>${item.name}</td>
@@ -52,8 +52,7 @@ export const addCategory = () => {
   }
 
   // 4.3.4 Замыкаем функцию из 4.3.3.
-  const updateTable = () => getData('/categories')
-    .then((data) => render(data))
+  const updateTable = () => getData('/categories').then((data) => render(data))
 
   //1.4 Каждый раз, когда мы вводим что-то в input, делаем проверку на заполненность значения value. Теперь будет куда проще работать с формой.
   nameInput.addEventListener('input', () => {
